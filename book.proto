@@ -1,0 +1,10 @@
+package communication;
+
+option go_package = "./communication";
+
+message Book {
+  required int64 id = 1;
+  required string title = 2;
+  required string author = 3;
+  optional string published = 4;
+}
